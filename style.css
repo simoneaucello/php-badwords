@@ -1,0 +1,47 @@
+body{
+  background-color: #191919;
+}
+
+h1 {
+  color: #854cee;
+  font-size: 120px;
+}
+h3{
+  color: #854cee;
+  font-size: 60px;
+  
+}
+
+h2{
+  color: #838383;
+  font-size: 90px;
+
+}
+
+img{
+  width: 700px;
+}
+
+.my_btn{
+  background-color: #6c43b8;
+  color: white;
+  font-size: 20px;
+  padding: 10px 50px;
+}
+
+.my_btn:hover{
+  background-color: rgb(172, 172, 172);
+}
+
+.censored{
+  color: #dadada;
+}
+
+p{
+  color: white;
+  font-size: 20px;;
+}
+
+h5{
+  color:orange
+}

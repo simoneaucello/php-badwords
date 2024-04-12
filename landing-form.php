@@ -20,6 +20,8 @@ $text_censored_length = strlen($text_censored);
 
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.css' integrity='sha512-VcyUgkobcyhqQl74HS1TcTMnLEfdfX6BbjhH8ZBjFU9YTwHwtoRtWSGzhpDVEJqtMlvLM2z3JIixUOu63PNCYQ==' crossorigin='anonymous' />
 
+  <!-- css  -->
+  <link rel="stylesheet" href="style.css">
   <title>PHP Badwords</title>
 </head>
 
@@ -28,14 +30,15 @@ $text_censored_length = strlen($text_censored);
   <div class="container my-5">
 
     <div class="my-5">
-      <h2>Testo inserito:</h2>
+      <h3>Testo inserito:</h3>
       <p> <?php echo $text ?> </p>
       <h5 class="mt-5">Lunghezza testo: <?php echo $text_length ?> caratteri. </h5>
     </div>
 
     <div class="my-5">
-      <h2>Testo con parola censurata:</h2>
+      <h3>Testo con parola censurata:</h3>
       <p> <?php echo $text_censored ?> </p>
+
       <h5 class="mt-5">Lunghezza testo: <?php echo $text_censored_length ?> caratteri. </h5>
     </div>
 

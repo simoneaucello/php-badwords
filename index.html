@@ -6,32 +6,39 @@
 
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.css' integrity='sha512-VcyUgkobcyhqQl74HS1TcTMnLEfdfX6BbjhH8ZBjFU9YTwHwtoRtWSGzhpDVEJqtMlvLM2z3JIixUOu63PNCYQ==' crossorigin='anonymous'/>
 
+  <!-- css  -->
+
+  <link rel="stylesheet" href="style.css">
   <title>Form</title>
 </head>
 <body>
 
-  <div class="container my-5">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="mb-5">PHP badwords</h1>
+  <div class="container  my-5 ">
+    <div class="row justify-content-center align-items-center ">
+      <div class="col-6 text-center">
+        <h1 class="mb-5 text-center">PHP ***words</h1>
 
         <form action="landing-form.php" method="POST">
           
           <div class="form-floating mb-5">
-            <textarea name="text" class="form-control" placeholder="Scrivi" id="floatingTextarea2" style="height: 100px"></textarea>
-            <label for="floatingTextarea2">Scrivi qualcosa...</label>
+            <textarea name="text" class="form-control fw-bold" placeholder="Scrivi" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2"> <h6>Scrivi qualcosa...</h6></label>
           </div>
 
           <div class="mb-5">
-            <label for="exampleInputPassword1" class="form-label">Parola da censurare</label>
-            <input name="word" type="text" class="form-control" id="exampleInputPassword1">
+            <label for="floatingTextarea2" class="form-label" class="censored "><h2>Parola da censurare</h2></label>
+            <input name="word" type="text" class="form-control" id="exampleInputPassword1" placeholder="Parola da censurare">
           </div>
          
-          <button type="submit" class="btn btn-primary">INVIA</button>
-        </form>
-        
+          <button type="submit" class="btn my_btn fw-bold" >SEND</button>
+        </form>      
+      </div>
+
+      <div class="col-6">
+        <img src="img/PHP-Transparent-Background.png" alt="#">
       </div>
     </div>
+
 
   </div>
   

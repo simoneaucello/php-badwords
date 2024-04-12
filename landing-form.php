@@ -5,7 +5,9 @@ $word = $_POST['word'];
 
 $text_length = strlen($text);
 
-$text_censored = str_replace($word, '***', $text)
+$text_censored = str_replace($word, '***', $text);
+
+$text_censored_length = strlen($text_censored);
 
 ?>
 
@@ -34,6 +36,7 @@ $text_censored = str_replace($word, '***', $text)
     <div class="my-5">
       <h2>Testo con parola censurata:</h2>
       <p> <?php echo $text_censored ?> </p>
+      <h5 class="mt-5">Lunghezza testo: <?php echo $text_censored_length ?> caratteri. </h5>
     </div>
 
   </div>
